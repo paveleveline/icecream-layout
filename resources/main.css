@@ -1,0 +1,289 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+    color: #4f5666;
+    position: relative;
+    margin: 0;
+}
+
+section {
+    display: flex;
+}
+
+.upper-left-wrapper { 
+    flex-direction: column;
+    display: flex;
+    width: 45%;
+    cursor: pointer;
+}
+
+.first-box{ 
+    height: 180px;
+    display: flex;
+}
+
+.first.wrapper {
+    width: 50%;
+}  
+
+.vanilla-icecream{ 
+    background-image: url(../assets/shutterstock_261107618.jpg);    
+    background-position: center;
+    background-size: cover;
+}
+
+.first.right.wrapper {
+    background-color: #a76e63;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    color: white;
+}
+
+.search-icon img, .social-media-icons img { 
+    width: 14px;
+    height: 14px;
+    padding: 0em 0.6em;
+}
+
+.search-icon img{ 
+    transform: translateY(15%);
+}
+
+.dream-text p, .sweet-text p{ 
+    font-size: 13em;
+    font-family: 'Noto Serif SC', serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.right.header-wrapper a{ 
+    color: #4f5666;
+}
+
+.right.header-wrapper {
+    width: 55%;
+    display: flex;
+    background-image: url(../assets/shutterstock_584691958.jpg);
+    background-position-x: 210%;
+    background-position-y: 55%;
+    background-size: 68%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.a-recipes {
+    display: flex;
+    flex-direction: row;
+    height: 360px;
+    padding: 0 1.5em;
+}
+
+.a-recipes p:first-child {
+    font-size: 6.8em;
+    font-family: 'Noto Serif SC', serif;
+}
+
+.a-recipes p:nth-child(2) {
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    align-items: center;
+    display: flex;
+    padding: 0 0 2em 0.2em;
+}
+
+.right-recipe-column { 
+    width: 100%;
+}
+
+.links-wrapper {
+    padding-top: 1.8em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-wrapper a {
+    text-decoration: none;
+}
+
+a[href="contact.html"] { 
+    margin-right: 13em;
+} 
+
+.icon-menu {
+    width: 34px;
+    height: 34px;
+    margin-right: 2em;
+    transform: translateY(-25%);
+}
+
+.icon-menu img {
+    width: 100%;
+    height: auto;
+}
+
+.z-recipe p{ 
+    font-size: 5.5em;
+    font-family: 'Noto Serif SC', serif;
+    transform: translateY(-25%);
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.description-wrapper p {
+    margin: 0;
+    padding: 0;
+}
+
+.lower-wrapper { 
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    min-height: 612px;   
+}
+
+.first-left-lower-box { 
+width: 32%;
+height: 100%;
+}
+
+.first-left-lower-box .cake-box{ 
+height: 38%;
+background-image: url(../assets/shutterstock_240942928.jpg);
+background-size: cover;
+background-position: center;
+}
+
+h2{ 
+font-size: 1.1em;
+}
+
+h1, h2, h3 { 
+text-transform: uppercase;
+padding: 10px 35px;
+color: white;
+margin: 0;
+font-weight: lighter;
+letter-spacing: 0.08em;
+}
+
+h3 { 
+font-size: 0.7em;
+padding-top: 3.5em;
+letter-spacing: 0.1em;
+}
+
+h1 { 
+    font-size: 1.6em;
+}
+
+.left-bottom-wrapper, .right-bottom-wrapper { 
+height: 62%;    
+display: flex;
+}
+
+.fudgy-chocolate {
+width: 55%;
+height: 100%;
+background-color: #c6ada6;
+background-image: url(../assets/choco-fudge.png);
+background-position: bottom;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+.rasberry-coconut { 
+    width: 45%;
+    height: 68%;
+    background-color: #a76e63;
+}
+
+.rasberry-coconut p, .pumpkin-baked p, .coconut-snowball p { 
+    padding-left: 35px;
+    color: white;
+}
+
+.first-middle-lower-box { 
+    width: 20%;
+    height: 100%;
+    padding-left: 1em;
+}
+
+.large-icecream { 
+    background-image: url(../assets/cone-cioco.png);
+    height: 123%;
+    width: 115%;
+    transform: translateY(-19%);
+    background-position: top;
+    background-size: 126%;
+    background-repeat: no-repeat;
+}
+
+.first-right-lower-box { 
+    width: 48%;
+    height: 100%;
+}
+
+.dream-text p { 
+    padding-bottom: 0.06em;
+}
+
+.coconut-snowball { 
+width: 65%;
+height: 100%;
+background-color: #a76e63;
+background-image: url(../assets/cookies.png);
+background-position: bottom;
+background-size: 75%;
+background-repeat: no-repeat;
+}
+
+.pumpkin-baked { 
+    width: 35%;
+    height: 68%;
+    background-color:#4f5666;
+}
+
+.right-bottom-wrapper h3 { 
+padding-top: 1.2em;    
+}
+
+.bottom-middle-rectangle { 
+width: 652px;
+height: 125px;
+position: absolute;
+bottom: 0;
+transform: translateX(33.8%);
+background-color: #dcdbe1;
+}
+
+.rectangle-wrapper { 
+display: flex;
+margin: 0;
+}
+
+.bottom-middle-rectangle h3 { 
+color: #4f5666; 
+padding-left: 0; 
+}
+
+h4 {
+font-size: 1.9em;
+text-transform: uppercase;    
+}
+
+.left-bottom-side { 
+width: 55%;
+padding-left: 3em;
+letter-spacing: 0.1em;
+}
+
+.right-bottom-side { 
+width: 45%; 
+}
