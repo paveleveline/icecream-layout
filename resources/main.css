@@ -302,6 +302,16 @@ text-transform: uppercase;
 width: 55%;
 padding-left: 3em;
 letter-spacing: 0.1em;
+position: relative;
+animation-name: slide;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes slide { 
+0% {color: #4f5666; left: 0px;}
+50% {color: white; left: 100px}
+100% {color: #a76e63; left: 0px}  
 }
 
 .right-bottom-side { 
