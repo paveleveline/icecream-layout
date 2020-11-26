@@ -49,10 +49,16 @@ section {
     width: 14px;
     height: 14px;
     padding: 0em 0.6em;
+    transition: 1s; 
 }
 
 .search-icon img{ 
     transform: translateY(15%);
+}
+
+.search-icon img:hover, .social-media-icons img:hover { 
+height: 22px;   
+width: 22px; 
 }
 
 .dream-text p, .sweet-text p{ 
@@ -61,6 +67,12 @@ section {
     margin: 0;
     display: flex;
     justify-content: center;
+    transition: transform 2s;
+}
+
+.sweet-text p:hover, .dream-text p:hover { 
+    color: #a76e63;
+    transform: rotate(180deg);
 }
 
 .right.header-wrapper a{ 
@@ -242,6 +254,14 @@ background-image: url(../assets/cookies.png);
 background-position: bottom;
 background-size: 75%;
 background-repeat: no-repeat;
+}
+
+.coconut-snowball:hover, .pumpkin-baked:hover, .rasberry-coconut:hover, .fudgy-chocolate:hover  { 
+    font-size: 1.2em;
+}
+
+.coconut-snowball, .pumpkin-baked, .rasberry-coconut, .fudgy-chocolate { 
+transition: 1s;
 }
 
 .pumpkin-baked { 
